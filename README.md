@@ -8,11 +8,13 @@ at http://ckan.readthedocs.org/en/latest/maintaining/filestore.html
 
 Install
 -------
-Clone this repository and ```run python setup.py install``` to install simply. Or you can install the following way.
+Activate the pyenv for your CKAN instance before installing this extension.
+Clone this repository and run ```python setup.py install``` to install simply. 
+Or you can install the following way.
 
 ```
 $ pip install -e git+https://github.com/fumi/ckanext-mimetypes.git#egg=ckanext-mimetypes
-$ cd [this repo]
+$ cd (pyenv)/src/ckanext-mimetypes
 $ python setup.py develop
 ```
     
