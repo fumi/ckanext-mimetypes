@@ -10,7 +10,7 @@ Install
 -------
 Activate the pyenv for your CKAN instance before installing this extension.
 Clone this repository and run ```python setup.py install``` to install simply. 
-Or you can install the following way.
+Or you can install this by the following way.
 
 ```
 $ pip install -e git+https://github.com/fumi/ckanext-mimetypes.git#egg=ckanext-mimetypes
