@@ -1,5 +1,5 @@
 import mimetypes
-import ckan.plugins as plugins
+import ckan.plugins as p
 
 class MIMETypesPlugin(p.SingletonPlugin):
   p.implements(p.IConfigurer)
