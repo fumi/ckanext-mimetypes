@@ -14,7 +14,7 @@ setup(
     author='Fumihiro Kato',
     author_email='fumi@fumi.me',
     url='http://fumi.me',
-    license='MIT',
+    license='Affero GPL',
     packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
     namespace_packages=['ckanext', 'ckanext.mimetypes'],
     include_package_data=True,
