@@ -26,5 +26,6 @@ setup(
         [ckan.plugins]
         # Add plugins here, e.g.
         # myplugin=ckanext.mimetypes.plugin:PluginClass
+        mimetypes=ckanext.mimetypes.plugin:MIMETypesPlugin
     ''',
 )
